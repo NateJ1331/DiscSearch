@@ -42,9 +42,9 @@ function search(){
   // console.log(sortedMovies)
 
   function compareMovies(a,b) {
-    if (a.Title < b.Title) {
+    if (a.Year < b.Year) {
       return -1;
-    } else if (a.Title > b.Title) {
+    } else if (a.Year > b.Year) {
       return 1;
     }
       return 0;
