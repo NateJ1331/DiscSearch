@@ -46,6 +46,10 @@ header h1{
     border: solid white;
 }
 
+.movieTitle{
+    font-weight: bold;
+}
+
 .movieTitle, .movieNotes{
     grid-column: 1/3;
     text-align: center;
