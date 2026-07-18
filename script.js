@@ -86,10 +86,4 @@ function renderMovie(movie) {
     movieContainer.innerHTML += html
 }
 
-setData().then(function() {
-  renderMovie(movies[0]);
-  renderMovie(movies[1]);
-  renderMovie(movies[2]);
-  renderMovie(movies[3]);
-});
 
