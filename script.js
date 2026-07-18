@@ -59,15 +59,15 @@ function search(){
 function movieTemplate(movie){
   return `
     <div class = "movie">
-        <p class = "movieTitle" class = "left">Name: ${movie.Title}</p>
-        <p class = "movieGenre" class = "left">Genre: ${movie.Genre}</p>
-        <p class = "movieYear" class = "right">Year: ${movie.Year}</p>
-        <p class = "movieRating" class = "right">Rating: ${movie.Rating}</p>
-        <p class = "movieSeries" class = "left">Series #: ${movie["Series #"]}</p>
-        <p class = "movieWatched" class = "right">Watched: ${movie.Watched}</p>
-        <p class = "movieDamaged" class = "right">Damaged: ${movie.Damaged}</p>
-        <p class = "moviePaid" class = "right">Paid: ${movie.Paid}</p>
-        <p class = "moviePrice" class = "right">Price: ${movie.Price}</p>
+        <p class = "movieTitle">Name: ${movie.Title}</p>
+        <p class = "movieGenre left">Genre: ${movie.Genre}</p>
+        <p class = "movieYear right">Year: ${movie.Year}</p>
+        <p class = "movieRating left">Rating: ${movie.Rating}</p>
+        <p class = "movieSeries right">Series #: ${movie["Series #"]}</p>
+        <p class = "movieWatched left">Watched: ${movie.Watched}</p>
+        <p class = "movieDamaged right">Damaged: ${movie.Damaged}</p>
+        <p class = "moviePaid left">Paid: ${movie.Paid}</p>
+        <p class = "moviePrice right">Price: ${movie.Price}</p>
         <p class = "movieNotes">Notes: ${movie.Notes}</p>
     </div>
   `
