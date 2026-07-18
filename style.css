@@ -44,10 +44,12 @@ header h1{
     text-align: center;
     background-color: var(--accent1-color);
     border: solid white;
+    font-size: 16px;
 }
 
 .movieTitle{
     font-weight: bold;
+    font-size: 18px;
 }
 
 .movieTitle, .movieNotes{
