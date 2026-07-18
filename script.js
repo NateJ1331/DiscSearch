@@ -1,7 +1,15 @@
 let movieContainer = document.querySelector('#movieContainer');
+let searchBar = document.querySelector('#searchBar');
 let searchButton = document.querySelector('#searchButton');
 let movies = []
-searchButton.addEventListener('click',search);
+
+searchButton.addEventListener("click", search);
+searchBar.addEventListener("keydown", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("searchButton").click();
+  }
+}); 
 
 async function getData() {
   const url = "Data/Test_Data.json";
@@ -24,7 +32,7 @@ async function setData() {
 setData()
 
 function search(){
-  let movieQuery = document.querySelector('#search').value;
+  let movieQuery = document.querySelector('#searchBar').value;
   movieQuery = movieQuery.toLowerCase();
 
   console.log(movies)
