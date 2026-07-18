@@ -63,7 +63,7 @@ function movieTemplate(movie){
         <p class = "movieGenre">Genre: ${movie.Genre}</p>
         <p class = "movieYear">Year: ${movie.Year}</p>
         <p class = "movieRating">Rating: ${movie.Rating}</p>
-        <p class = "movieSeries">Series #: ${movie.Series}</p>
+        <p class = "movieSeries">Series #: ${movie["Series #"]}</p>
         <p class = "movieWatched">Watched: ${movie.Watched}</p>
         <p class = "movieDamaged">Damaged: ${movie.Damaged}</p>
         <p class = "moviePaid">Paid: ${movie.Paid}</p>
