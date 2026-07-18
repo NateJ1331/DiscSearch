@@ -38,7 +38,7 @@ header h1{
 
 .movie{
     display: grid;
-    margin: 15px 2.5em;
+    margin: 15px 1.8em;
     justify-content: center;
     grid-template-columns: 10em 10em;
     text-align: center;
