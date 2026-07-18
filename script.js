@@ -59,7 +59,7 @@ function search(){
 function movieTemplate(movie){
   return `
     <div class = "movie">
-        <p class = "movieTitle">Name: ${movie.Title}</p>
+        <p class = "movieTitle">${movie.Title}</p>
         <p class = "movieGenre left">Genre: ${movie.Genre}</p>
         <p class = "movieYear right">Year: ${movie.Year}</p>
         <p class = "movieRating left">Rating: ${movie.Rating}</p>
